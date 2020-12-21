@@ -30,7 +30,7 @@ const generateArc = (startAngle, endAngle) => {
 
 function App() {
   var arcInstance = arc()
-    .innerRadius(70)
+    .innerRadius(100)
     .outerRadius(100)
     .startAngle(0)
     .endAngle(Math.PI / 2);
@@ -45,7 +45,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
         <svg width="400" height="400">
-          <path d={path} fill="aqua" transform="translate(200,200)" />
+          <path d={path} stroke="green" fill="aqua" stroke-width="40" transform="translate(200,200)" />
           <image href={anchor} x={center[0] + 200 - 12} y={center[1] + 200 - 12} height="24" width="24" />
         </svg>
         <p>

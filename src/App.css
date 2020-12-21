@@ -1,3 +1,6 @@
+path:hover {
+  stroke-width: 45;
+}
 .App {
   text-align: center;
 }
